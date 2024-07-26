@@ -1,0 +1,39 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ec2:CreateVpc",
+                "ec2:DescribeVpcs",
+                "ec2:DeleteVpc",
+                "ec2:CreateSubnet",
+                "ec2:DescribeSubnets",
+                "ec2:DeleteSubnet",
+                "ec2:CreateSecurityGroup",
+                "ec2:DescribeSecurityGroups",
+                "ec2:DeleteSecurityGroup",
+                "ec2:AuthorizeSecurityGroupIngress",
+                "ec2:AuthorizeSecurityGroupEgress",
+                "ec2:RevokeSecurityGroupIngress",
+                "ec2:RevokeSecurityGroupEgress",
+                "s3:CreateBucket",
+                "s3:DeleteBucket",
+                "s3:PutBucketPolicy",
+                "s3:GetBucketPolicy",
+                "logs:CreateLogGroup",
+                "logs:DeleteLogGroup",
+                "logs:DescribeLogGroups",
+                "iam:CreateRole",
+                "iam:DeleteRole",
+                "iam:AttachRolePolicy",
+                "iam:DetachRolePolicy",
+                "eks:CreateCluster",
+                "eks:DeleteCluster",
+                "eks:DescribeCluster"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+
